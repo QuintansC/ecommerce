@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import {MatIconModule} from '@angular/material/icon';
-import {MatButtonModule} from '@angular/material/button';
-import {MatBadgeModule} from '@angular/material/badge';
+
+import { Header } from "../components/header/header";
+import { Footer } from '../components/footer/footer';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, MatButtonModule, MatIconModule, MatBadgeModule],
+  imports: [RouterOutlet, Footer, Header],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })

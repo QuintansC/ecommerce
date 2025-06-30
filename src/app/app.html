@@ -1,32 +1,6 @@
-<nav class="main">
-  <input type="search" name="" id="">
 
-  <div class="demo-section">
-    Icon with a badge
-    <mat-icon matBadge="15">home</mat-icon>
-      <!-- Include text description of the icon's meaning for screen-readers -->
-      <span class="cdk-visually-hidden">
-        Example with a home icon with overlaid badge showing the number 15
-      </span>
-  </div>
+<app-header></app-header>
 
+<router-outlet></router-outlet>
 
-
-  <div class="demo-section">
-    Button toggles badge visibility
-    <button matButton="elevated" matBadge="7" (click)="toggleBadgeVisibility()">
-        Hide
-    </button>
-  </div>
-
-<div class="demo-section">
-  Icon with a badge
-  <mat-icon matBadge="15">home</mat-icon>
-    <!-- Include text description of the icon's meaning for screen-readers -->
-    <span class="cdk-visually-hidden">
-      Example with a home icon with overlaid badge showing the number 15
-    </span>
-</div>
-</nav>
-
-<router-outlet />
+<app-footer></app-footer>

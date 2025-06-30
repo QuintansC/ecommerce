@@ -1,0 +1,18 @@
+.navHeader{
+    display: flex;
+    justify-content: space-between;
+
+    padding: 0 2vw;
+    .right, .left{
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .right{
+
+    }
+    .left{
+        
+    }
+}
