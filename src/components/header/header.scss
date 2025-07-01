@@ -1,18 +1,37 @@
 .navHeader{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    background-color: darkslategray;
+    padding: 1vh 2vw;
+    align-items: center;
 
-    padding: 0 2vw;
-    .right, .left{
-        width: 50%;
+    .right, .left, .center{
+        width: 45%;
         display: flex;
         justify-content: space-around;
     }
 
+    .btn-cart{
+        display: flex;
+        align-items: center;
+    }
+    .center{
+        input{
+            width: 540px;
+        }
+    }
     .right{
-
+        a{
+            display: flex;
+            align-items: center;
+        }
     }
     .left{
-        
+        width: 5%;
+    }
+
+    button{
+        border-style: none;
+        text-decoration: none;
     }
 }
